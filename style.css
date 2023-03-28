@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(67, 118, 165);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(241, 188, 188);
+}
+.head-title h1 {
+  padding: 20px 0 5px 0;
+  text-align: center;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: bold;
+  color: rgb(27, 27, 182);
+}
+.pic img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /*border: black 2px solid;*/
+  width: 500px;
+}
+.pro-detail {
+  width: fit-content;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+.product {
+  /*border: 2px rgb(0, 0, 0) solid;*/
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.product img {
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pro1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pro1 p {
+  text-align: center;
+}
+.pro2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pro2 p {
+  text-align: center;
+}
+.pro3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pro3 p {
+  text-align: center;
+}
